@@ -12,7 +12,6 @@ const upload = multer()
 const server = http.createServer(app)
 
 app.post('/upload', upload.single('file'), async (req, res) => {
-  console.log(req.file)
   await pipeline(
     req.file.stream,
     fs.createWriteStream('./upload.txt')
