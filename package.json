@@ -1,0 +1,15 @@
+{
+  "name": "fileUploadingNodeGo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://danthegoodman1@github.com/danthegoodman1/fileUploadingNodeGo.git",
+  "author": "Dan Goodman <danthegoodman@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "2.0.0-rc.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
