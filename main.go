@@ -10,6 +10,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// from https://gist.github.com/schollz/f25d77afc9130b72390748bdbce0d9a3
+
 func main() {
 	fmt.Println("Starting server...")
 	router := gin.Default()
